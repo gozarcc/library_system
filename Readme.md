@@ -10,7 +10,7 @@ How to setup library_system locally
 
 For Windows, open the library_system folder then right click on the whitespace and select Git Bash Here. It will open your Terminal with the directory of your library_system folder.
 
-Another option for Windows, open the library_system folder then below the file menus you will see the long address bar where you can see the directory of yoour folder. Click there then type cmd then press enter. It will open your command line with the directory of your library_system folder.
+Another option for Windows, open the library_system folder then below the file menu you will see the long address bar where you can see the directory of yoour folder. Click there then type cmd then press enter. It will open your command line with the directory of your library_system folder.
 
 5. In your Terminal, Git Bash or Command Line, type the code below then press enter:
 php artisan serve
@@ -18,7 +18,13 @@ php artisan serve
 Wait for a few seconds then you will see
 Laravel development server started: <http://127.0.0.1:8000>
 
-6. Open your browser then type localhost:8000. You will able to access the library system
+7. In your browser type this in the address bar http://localhost/phpmyadmin
+
+8. Create database and name it as library_system
+
+9. Click library_system database then on the top menu click Import. In File to Import click Choose File. Go to library_system folder and select library_system.sql then click Go
+
+10. Open a new tab in your browser then type localhost:8000. You will be able to access the library system
 
 
 NOTE:
